@@ -16,12 +16,12 @@ reactions = [
 
 
 def get_random_reaction():
-    return reactions[random.randint(0, len(reactions)-1)]
+    return reactions[random.randint(0, len(reactions) - 1)]
 
 
 def print_random_joke_and_reaction():
     joke, reaction = pyjokes.get_joke(), get_random_reaction()
-    print(joke,'\n', reaction)
+    print(joke, "\n", reaction)
 
 
 if __name__ == "__main__":
