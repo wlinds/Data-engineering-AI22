@@ -1,0 +1,6 @@
+outs:
+- md5: 1250b55f7c41ace04e85683bbe15807e
+  size: 241248
+  hash: md5
+  path: cat1.jpeg
+  isexec: true
